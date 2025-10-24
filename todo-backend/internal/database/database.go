@@ -2,7 +2,7 @@ package database
 
 import "todo-backend/internal/models"
 
-var todos = map[int]models.Todo{
+var Todos = map[int]models.Todo{
 	1:{
 		Id:        1,
 		Name:      "Go to gym",

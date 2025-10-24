@@ -1,10 +1,9 @@
 package models
 type Status string
-
 const (
 	Pending Status = "pending"
-	InProgress ="inprogress"
-	Completed ="completed"
+	InProgress Status ="inprogress"
+	Completed Status ="completed"
 )
 
 type Todo struct {
